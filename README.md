@@ -1,4 +1,5 @@
-## Hi there 👋
+## Education
+Mar. 2024 - Current, B.S. Architecture and Architectural Engineering, Seoul National University
 
 <!--
 **kblee05/kblee05** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
