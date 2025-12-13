@@ -1,17 +1,44 @@
-## Education
-Mar. 2024 - Current, B.S. Architecture and Architectural Engineering, Seoul National University
+### Hi there, I'm Kenneth Lee 👋
 
-<!--
-**kblee05/kblee05** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+I am an undergraduate student at **Seoul National University**, currently majoring in **Architecture** and focusing on **Computer Science and Engineering**.
 
-Here are some ideas to get you started:
+My primary research interests lie in **Computer Systems**, **Operating Systems**, and **System Architecture**. I am passionate about understanding how software interacts with hardware and building efficient, low-level systems.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+I am actively looking for **Research Intern** opportunities where I can contribute to ongoing system research projects.
+
+<br>
+
+### 🎓 Education
+- **Seoul National University** (Mar. 2024 - Present)
+  - B.S. in Architecture and Architectural Engineering
+  - Computer Science and Engineering
+
+<br>
+
+### 🛠 Tech Stack
+<p>
+  <img src="https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=c&logoColor=white"/>
+  <img src="https://img.shields.io/badge/C++-00599C?style=flat-square&logo=c%2B%2B&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black"/>
+</p>
+
+<br>
+
+### 📌 Pinned Projects & Experience
+
+#### [Memory-Allocator](https://github.com/kblee05/Memory-Allocator)
+> **Custom Dynamic Memory Allocator Implementation**
+> - Designed and implemented a dynamic memory allocator (`malloc`, `free`, `realloc`) in C.
+> - Utilized **explicit free list** and **segregated free list** to optimize memory throughput and utilization.
+> - Analyzed performance trade-offs between fragmentation and allocation speed.
+
+#### [Nand2Tetris](https://github.com/kblee05/Nand2Tetris)
+> **Building a Modern Computer from First Principles**
+> - Constructed a complete general-purpose computer system starting from NAND gates.
+> - Implemented all layers including hardware platform, assembler, VM translator, compiler, and OS.
+> - Gained deep understanding of the hardware-software interface.
+
+<br>
+
+### 📫 Contact
+- **Email:** kennethbwlee@snu.ac.kr
