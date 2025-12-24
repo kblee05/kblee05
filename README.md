@@ -2,7 +2,7 @@
 
 I am an undergraduate student at **Seoul National University**, currently majoring in **Architecture** and focusing on **Computer Science and Engineering**.
 
-My primary research interests lie in **Computer Systems**, **Operating Systems**, and **System Architecture**. I am passionate about understanding how software interacts with hardware and building efficient, low-level systems.
+My primary research interests lie in **Computer Systems**, **Compilers**, **Operating Systems**, and **System Architecture**. I am passionate about understanding how software interacts with hardware and building efficient, low-level systems.
 
 I am actively looking for **Research Intern** opportunities where I can contribute to ongoing system research projects.
 
