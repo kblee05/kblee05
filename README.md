@@ -38,7 +38,10 @@ I am actively looking for **Research Intern** opportunities where I can contribu
 > **Custom Dynamic Memory Allocator Implementation**
 > - Designed and implemented a dynamic memory allocator (`malloc`, `free`, `realloc`) in C.
 > - Utilized **explicit free list** and **segregated free list** to optimize memory throughput and utilization.
-> - Analyzed performance trade-offs between fragmentation and allocation speed.
+> - **Conducted comparative benchmarking against glibc malloc** using synthetic workloads and trace-driven simulations.
+> - Analyzed performance trade-offs between **Throughput** (operations per second) and **Peak Memory Utilization** (fragmentation overhead).
+
+
 
 #### [SNU-Shell](https://github.com/kblee05/SNU-Shell)
 > **Custom Unix Shell Implementation (In Progress)**
