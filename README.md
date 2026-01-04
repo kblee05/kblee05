@@ -30,7 +30,7 @@ I am actively looking for **Research Intern** opportunities where I can contribu
 > **Building a Modern Computer from First Principles**
 > - Constructed a complete general-purpose computer system starting from NAND gates to the Operating System.
 > - **Implemented the full compilation toolchain using C++**, establishing a seamless translation pipeline:
->   `Jack Compiler` $\to$ `VM Translator` $\to$ `Assembler` $\to$ `Binary Machine Code`.
+>   $Jack Compiler \to VM Translator \to Assembler \to Binary Machine Code$.
 > - Developed the Standard Library (OS) including memory management (`alloc`, `deAlloc`), math routines, and I/O drivers.
 > - Gained deep understanding of the hardware-software interface and abstraction layers.
 
@@ -39,6 +39,13 @@ I am actively looking for **Research Intern** opportunities where I can contribu
 > - Designed and implemented a dynamic memory allocator (`malloc`, `free`, `realloc`) in C.
 > - Utilized **explicit free list** and **segregated free list** to optimize memory throughput and utilization.
 > - Analyzed performance trade-offs between fragmentation and allocation speed.
+
+#### [SNU-Shell](https://github.com/kblee05/SNU-Shell)
+> **Custom Unix Shell Implementation (In Progress)**
+> - Building a robust Unix shell from scratch with advanced command parsing and process control.
+> - Implemented **subshell execution with nested parentheses** and environment isolation using `fork` and `waitpid`.
+> - Supports short-circuit logic (`&&`, `||`) and recursive logical negation (`!`) with precise exit status propagation.
+> - Engineered a **POSIX-standard lexer** for accurate token recognition across complex command strings.
 
 <br>
 
