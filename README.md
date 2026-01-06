@@ -46,7 +46,7 @@ I am actively looking for **Research Intern** opportunities where I can contribu
 
 ---
 
-#### 🐚 [Shell](https://github.com/kblee05/SNU-Shell)
+#### 🐚 [Shell](https://github.com/kblee05/Shell)
 **Advanced Unix Shell with Hierarchical Command Execution Engine**
 * **Designed a 5-layer shell architecture** (`Separator -> Logic -> Pipe -> Redirection -> Execution`) to ensure modularity and predictable command flow.
 * **Implemented Recursive Subshell Execution** with nested parentheses, managing precise environment isolation via `fork`, `waitpid`, and depth-aware parsing.
