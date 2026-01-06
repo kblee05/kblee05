@@ -26,33 +26,33 @@ I am actively looking for **Research Intern** opportunities where I can contribu
 
 ### 📌 Pinned Projects & Experience
 
-#### [Nand2Tetris](https://github.com/kblee05/Nand2Tetris)
-> **Building a Modern Computer from First Principles**
-> - Constructed a complete general-purpose computer system starting from NAND gates to the Operating System.
-> - **Implemented the full compilation toolchain using C++**, establishing a seamless translation pipeline:
->   $Jack Compiler \to VM Translator \to Assembler \to Binary Machine Code$.
-> - Developed the Standard Library (OS) including memory management (`alloc`, `deAlloc`), math routines, and I/O drivers.
-> - Gained deep understanding of the hardware-software interface and abstraction layers.
+#### 🎮 [Nand2Tetris](https://github.com/kblee05/Nand2Tetris)
+**Building a Modern Computer from First Principles (Logic Gates to OS)**
+* **Constructed a complete 16-bit computer system** starting from NAND gates, establishing a deep understanding of hardware-software abstraction layers.
+* **Engineered a full compilation toolchain in C++**, implementing a seamless translation pipeline:
+  $$Jack\ Compiler \to VM\ Translator \to Assembler \to Binary\ Machine\ Code$$.
+* **Developed a Minimalist Operating System (Jack OS)** with advanced memory management (`alloc`, `deAlloc`), math routines, and low-level I/O drivers.
+* **Verified system integrity** by successfully running a complex Tetris application on the custom-built hardware/software stack.
 
+---
 
-### 🛠️ [Memory-Allocator](https://github.com/kblee05/Memory-Allocator)
-**Thread-Safe High-Performance Memory Allocator**
+#### 🛠️ [Memory-Allocator](https://github.com/kblee05/Memory-Allocator)
+**Thread-Safe High-Performance Memory Allocator (Custom Malloc)**
+* **Architected a dynamic memory allocator in C** with a focus on low-level memory layout control and minimal fragmentation overhead.
+* **Implemented a Segregated Free List** with 10 optimized bins (32B to Large) to achieve high-speed chunk search and allocation.
+* **Ensured Robust Thread-Safety** via `pthread_mutex` with an internal **Unlocked Helper Pattern** to eliminate self-deadlocks during `realloc`.
+* **Benchmarked against glibc malloc**, achieving a throughput of **960,000+ ops/sec** and demonstrating competitive performance in specific trace-driven scenarios.
+* **Engineered Advanced Memory Recovery** using splitting for oversized chunks and boundary-tag based coalescing to maximize heap utilization.
 
-* **Architected a custom dynamic memory allocator** (`malloc`, `free`, `realloc`) from scratch, emphasizing low-level memory layout control and efficiency.
-* **Implemented a Segregated Free List** with 10 bins (32B to Large) to minimize search time and external fragmentation.
-* **Ensured Thread-Safety** by implementing a coarse-grained locking strategy using `pthread_mutex`, while avoiding self-deadlocks in `realloc` via internal unlocked helper functions.
-* **Optimized Memory Throughput**, achieving over **960,000 ops/sec** in synthetic benchmarks, outperforming basic glibc-like implementations in specific trace-driven scenarios.
-* **Features Advanced Coalescing & Splitting**, reducing internal fragmentation by splitting oversized chunks and merging adjacent free blocks during deallocation.
+---
 
-
-### 🐚 [Shell](https://github.com/kblee05/SNU-Shell)
-**Advanced Unix Shell with Hierarchical Command Execution**
-
-* **Engineered a multi-layered shell architecture** (`Separator -> Logic -> Pipe -> Execution`) to handle complex command flows with high modularity.
-* **Implemented Recursive Subshell Execution** using nested parentheses, ensuring precise environment isolation and execution context via depth-aware parsing.
-* **Developed a High-Precision Logic Engine** supporting short-circuit operators (`&&`, `||`) and logical negation (`!`) with strict exit status (`last_status`) propagation.
-* **Engineered a Robust POSIX Lexer**, utilizing a custom `dynamicstring` library to handle variable token lengths and escape sequences without memory leaks.
-* **Deep System Analysis**: Conducted low-level debugging using `ps` and process tree analysis to verify subshell fork-wait behavior and resource reaping.
+#### 🐚 [Shell](https://github.com/kblee05/SNU-Shell)
+**Advanced Unix Shell with Hierarchical Command Execution Engine**
+* **Designed a 5-layer shell architecture** (`Separator -> Logic -> Pipe -> Redirection -> Execution`) to ensure modularity and predictable command flow.
+* **Implemented Recursive Subshell Execution** with nested parentheses, managing precise environment isolation via `fork`, `waitpid`, and depth-aware parsing.
+* **Developed a High-Precision Logic Engine** for short-circuit evaluation (`&&`, ||) and logical negation (`!`) with strict exit status propagation.
+* **Engineered a POSIX-compliant Lexer** utilizing a custom `dynamicstring` library to handle complex tokenization and escape sequences with zero memory leaks.
+* **Conducted Deep System Profiling** using `ps` and process tree analysis to verify complex process hierarchies and resource reaping behavior.
 <br>
 
 ### 📫 Contact
