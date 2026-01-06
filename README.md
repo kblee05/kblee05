@@ -34,22 +34,25 @@ I am actively looking for **Research Intern** opportunities where I can contribu
 > - Developed the Standard Library (OS) including memory management (`alloc`, `deAlloc`), math routines, and I/O drivers.
 > - Gained deep understanding of the hardware-software interface and abstraction layers.
 
-#### [Memory-Allocator](https://github.com/kblee05/Memory-Allocator)
-> **Custom Dynamic Memory Allocator Implementation**
-> - Designed and implemented a dynamic memory allocator (`malloc`, `free`, `realloc`) in C.
-> - Utilized **explicit free list** and **segregated free list** to optimize memory throughput and utilization.
-> - **Conducted comparative benchmarking against glibc malloc** using synthetic workloads and trace-driven simulations.
-> - Analyzed performance trade-offs between **Throughput** (operations per second) and **Peak Memory Utilization** (fragmentation overhead).
+
+### 🛠️ [Memory-Allocator](https://github.com/kblee05/Memory-Allocator)
+**Thread-Safe High-Performance Memory Allocator**
+
+* **Architected a custom dynamic memory allocator** (`malloc`, `free`, `realloc`) from scratch, emphasizing low-level memory layout control and efficiency.
+* **Implemented a Segregated Free List** with 10 bins (32B to Large) to minimize search time and external fragmentation.
+* **Ensured Thread-Safety** by implementing a coarse-grained locking strategy using `pthread_mutex`, while avoiding self-deadlocks in `realloc` via internal unlocked helper functions.
+* **Optimized Memory Throughput**, achieving over **960,000 ops/sec** in synthetic benchmarks, outperforming basic glibc-like implementations in specific trace-driven scenarios.
+* **Features Advanced Coalescing & Splitting**, reducing internal fragmentation by splitting oversized chunks and merging adjacent free blocks during deallocation.
 
 
+### 🐚 [Shell](https://github.com/kblee05/SNU-Shell)
+**Advanced Unix Shell with Hierarchical Command Execution**
 
-#### [SNU-Shell](https://github.com/kblee05/SNU-Shell)
-> **Custom Unix Shell Implementation (In Progress)**
-> - Building a robust Unix shell from scratch with advanced command parsing and process control.
-> - Implemented **subshell execution with nested parentheses** and environment isolation using `fork` and `waitpid`.
-> - Supports short-circuit logic (`&&`, `||`) and recursive logical negation (`!`) with precise exit status propagation.
-> - Engineered a **POSIX-standard lexer** for accurate token recognition across complex command strings.
-
+* **Engineered a multi-layered shell architecture** (`Separator -> Logic -> Pipe -> Execution`) to handle complex command flows with high modularity.
+* **Implemented Recursive Subshell Execution** using nested parentheses, ensuring precise environment isolation and execution context via depth-aware parsing.
+* **Developed a High-Precision Logic Engine** supporting short-circuit operators (`&&`, `||`) and logical negation (`!`) with strict exit status (`last_status`) propagation.
+* **Engineered a Robust POSIX Lexer**, utilizing a custom `dynamicstring` library to handle variable token lengths and escape sequences without memory leaks.
+* **Deep System Analysis**: Conducted low-level debugging using `ps` and process tree analysis to verify subshell fork-wait behavior and resource reaping.
 <br>
 
 ### 📫 Contact
