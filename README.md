@@ -10,8 +10,7 @@ I am actively looking for **Research Intern** opportunities where I can contribu
 
 ### 🎓 Education
 - **Seoul National University** (Mar. 2024 - Present)
-  - B.S. in Architecture and Architectural Engineering
-  - Computer Science and Engineering
+  - B.S. in Computer Science and Engineering
 
 <br>
 
