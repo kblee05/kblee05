@@ -1,6 +1,6 @@
 ### Hi there, I'm Kenneth Lee 👋
 
-I am an undergraduate student at **Seoul National University**, currently majoring in **Architecture** and focusing on **Computer Science and Engineering**.
+I am an undergraduate student at **Seoul National University**, currently majoring in **Computer Science and Engineering**.
 
 My primary research interests lie in **Computer Systems**, **Compilers**, **Operating Systems**, and **System Architecture**. I am passionate about understanding how software interacts with hardware and building efficient, low-level systems.
 
